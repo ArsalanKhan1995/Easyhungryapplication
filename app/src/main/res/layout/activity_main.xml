@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/mbg"
+    tools:context="com.example.arsalan.splashtest.MainActivity">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello"
+            android:id="@+id/hello"
+            android:textSize="50sp"
+            android:paddingLeft="110dp"
+            android:paddingRight="110dp"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:fontFamily="cursive" />
+        <customfonts.MyTextView1
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/para"
+            android:paddingTop="70dp"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <customfonts.MyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/butt"
+            android:layout_gravity="center"
+            android:background="@drawable/button_bg1"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:paddingLeft="90dp"
+            android:paddingRight="90dp"
+            android:paddingTop="12dp"
+            android:text="Find a place"
+            android:textColor="@color/White"
+            android:textSize="@dimen/text"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

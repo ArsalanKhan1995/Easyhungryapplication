@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Easy Hungry</string>
+    <string name="google_place_api">AIzaSyDtmWgpqgBn6R4We-nZxOv6hUoz-nBRFPE</string>
+    <string name="title_activity_splashscreen">Hello This is splash screen.</string>
+    <string name="phnno">Phone number not available.</string>
+    <string name="web">No website.</string>
+    <string name="get">Get Directions</string>
+    <string name="later">Back</string>
+    <string name="more">More details :-</string>
+    <string name="pricelevel">Price Level :</string>
+    <string name="locale">Locale : </string>
+    <string name="hello">Hello.</string>
+    <string name="para">Thank you for using our app. We are here to help you find an instant solution to your needs.
+    Enjoy!</string>
+</resources>
